@@ -63,6 +63,7 @@ function compile() {
     fi
     cp out/arch/arm64/boot/Image AnyKernel
     cp out/arch/arm64/boot/dtbo.img AnyKernel
+    cp out/arch/arm64/boot/dtb AnyKernel
 }
 # Zipping
 function zipping() {
